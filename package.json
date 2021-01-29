@@ -1,0 +1,25 @@
+{
+  "name": "blog_de_cafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ASSETS/SASS/style.scss ASSETS/CSS/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis-zunino/Blog_de_Cafe.git"
+  },
+  "author": "Luis Zunino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luis-zunino/Blog_de_Cafe/issues"
+  },
+  "homepage": "https://github.com/Luis-zunino/Blog_de_Cafe#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
