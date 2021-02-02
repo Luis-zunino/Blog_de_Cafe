@@ -1,4 +1,5 @@
 @import "PARTES/variables";
+@import "PARTES/header";
 
 
 
@@ -49,12 +50,20 @@ h4 {
 img {
     max-width: 100%;
 }
-.noPadding{
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+
+.noPadding {
     padding: 0;
 }
-.noMargin{
+
+.noMargin {
     margin: 0;
 }
-.centrarTexto{
+
+.centrarTexto {
     text-align: center;
 }

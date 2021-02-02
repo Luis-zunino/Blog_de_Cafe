@@ -1,3 +1,37 @@
+.header {
+  background-image: url(../img/banner.jpg);
+  height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .header .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media (max-width: 768px) {
+      .header .barra {
+        display: block; } }
+    .header .barra .logo {
+      color: #fff;
+      font-weight: 400; }
+      .header .barra .logo span {
+        font-weight: 900; }
+    @media (min-width: 768px) {
+      .header .barra .navegacion {
+        display: flex;
+        gap: 2rem; } }
+    .header .barra .navegacion a {
+      color: #fff;
+      display: block;
+      font-size: 1.8rem; }
+  .header .texto {
+    text-align: center;
+    color: #fff;
+    margin-top: 5rem; }
+    @media (min-width: 768px) {
+      .header .texto {
+        margin-top: 15rem; } }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -35,6 +69,10 @@ h4 {
 
 img {
   max-width: 100%; }
+
+.contenedor {
+  width: 80%;
+  margin: auto; }
 
 .noPadding {
   padding: 0; }
