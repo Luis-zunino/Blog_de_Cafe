@@ -32,6 +32,12 @@
       .header .texto {
         margin-top: 15rem; } }
 
+@media (min-width: 768px) {
+  .contenidoPrincipal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem; } }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
