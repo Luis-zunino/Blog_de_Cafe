@@ -7,39 +7,6 @@
     background-repeat: no-repeat;
     background-position: center center;
 
-    .barra {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 4rem;
-
-        @media(max-width: 768px) {
-            display: block;
-        }
-
-        .logo {
-            color: $blanco;
-            font-weight: 400;
-
-            span {
-                font-weight: 900;
-            }
-        }
-
-        .navegacion {
-            @media(min-width: 768px) {
-                display: flex;
-                gap: 2rem;
-            }
-
-            a {
-                color: $blanco;
-                display: block;
-                font-size: 1.8rem;
-            }
-        }
-    }
-
     .texto {
         text-align: center;
         color: $blanco;
@@ -47,6 +14,39 @@
 
         @media(min-width: 768px) {
             margin-top: 15rem;
+        }
+    }
+}
+//para que funcione tambien en el footer lo dejo afuera
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+
+    @media(max-width: 768px) {
+        display: block;
+    }
+
+    .logo {
+        color: $blanco;
+        font-weight: 400;
+
+        span {
+            font-weight: 900;
+        }
+    }
+
+    .navegacion {
+        @media(min-width: 768px) {
+            display: flex;
+            gap: 2rem;
+        }
+
+        a {
+            color: $blanco;
+            display: block;
+            font-size: 1.8rem;
         }
     }
 }
