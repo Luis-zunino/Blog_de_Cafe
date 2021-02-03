@@ -39,7 +39,12 @@
         <main class="blog">
             <h3>Nuestro Blog</h3>
             <article class="entrada">
-                <div><img src="ASSETS/img/blog1.jpg" alt="Imagen Blog"></div>
+                <div>
+                    <picture>
+                        <source loading="lazy" srcset="ASSETS/img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="ASSETS/img/blog1.jpg" alt="Imagen Blog">
+                    </picture>
+                </div>
                 <div class="contenidoEntrada">
                     <h4 class="noMargin">Tipos de Granos de Café</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quibusdam eveniet corporis
@@ -50,7 +55,10 @@
             </article>
             <article class="entrada">
                 <div>
-                    <img src="ASSETS/img/blog2.jpg" alt="Imagen Blog">
+                    <picture>
+                        <source loading="lazy" srcset="ASSETS/img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="ASSETS/img/blog2.jpg" alt="Imagen Blog">
+                    </picture>
                 </div>
                 <div class="contenidoEntrada">
                     <h4 class="noMargin">3 deliciosas recetas de Café</h4>
@@ -61,7 +69,12 @@
                 </div>
             </article>
             <article class="entrada">
-                <div><img src="ASSETS/img/blog3.jpg" alt="Imagen Blog"></div>
+                <div>
+                    <picture>
+                        <source loading="lazy" srcset="ASSETS/img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="ASSETS/img/blog3.jpg" alt="Imagen Blog">
+                    </picture>
+                </div>
                 <div class="contenidoEntrada">
                     <h4 class="noMargin">Beneficios del Café</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quibusdam eveniet
@@ -107,6 +120,7 @@
             </div>
         </div>
     </footer>
+    <script src="ASSETS/JS/modernizr.js"></script>
 </body>
 
 </html>
