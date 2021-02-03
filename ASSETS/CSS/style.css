@@ -73,6 +73,17 @@
       grid-template-columns: repeat(2, 1fr);
       column-gap: 2rem; } }
 
+.cursoContenido {
+  padding: 3rem 0;
+  border-bottom: 1px solid #e1e1e1; }
+  @media (min-width: 768px) {
+    .cursoContenido {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 2rem; } }
+  .cursoContenido:last-of-type {
+    border: none; }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }

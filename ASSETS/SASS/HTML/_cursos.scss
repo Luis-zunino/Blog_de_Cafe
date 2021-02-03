@@ -1,0 +1,17 @@
+@import "../PARTES/variables";
+
+
+.cursoContenido {
+    padding: 3rem 0;
+    border-bottom: 1px solid $claro;
+
+    @media(min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+    &:last-of-type {
+        border: none;
+    }
+}
