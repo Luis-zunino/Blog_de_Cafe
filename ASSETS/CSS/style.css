@@ -7,7 +7,8 @@
   .header .barra {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    padding: 4rem; }
     @media (max-width: 768px) {
       .header .barra {
         display: block; } }
@@ -59,6 +60,11 @@
     .sidebar .cursos .curso .cursoInfo {
       font-weight: normal; }
 
+.footer {
+  background-color: #000;
+  padding: 3rem 0;
+  margin-top: 4rem; }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -99,7 +105,7 @@ img {
   max-width: 100%; }
 
 .contenedor {
-  width: 80%;
+  width: Min(90%, 120rem);
   margin: auto; }
 
 .noPadding {

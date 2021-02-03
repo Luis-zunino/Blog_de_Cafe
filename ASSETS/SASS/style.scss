@@ -1,6 +1,7 @@
 @import "PARTES/variables";
 @import "PARTES/header";
 @import "PARTES/contenido";
+@import "PARTES/footer";
 
 
 
@@ -54,7 +55,7 @@ img {
 }
 
 .contenedor {
-    width: 80%;
+    width: Min(90%, 120rem);
     margin: auto;
 }
 
