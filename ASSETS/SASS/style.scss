@@ -30,6 +30,7 @@ h2,
 h3,
 h4 {
     font-family: $fuenteH;
+    line-height: 1.2;
 }
 
 h1 {
@@ -67,4 +68,28 @@ img {
 
 .centrarTexto {
     text-align: center;
+}
+
+.boton {
+    display: block;
+    font-family: $fuenteH;
+    color: $blanco;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+    @media(min-width: 768px) {
+        display: inline-block;
+    }
+}
+
+.btnPrimario {
+    background-color: $negro;
+}
+
+.btnSecundario {
+    background-color: $primario;
 }

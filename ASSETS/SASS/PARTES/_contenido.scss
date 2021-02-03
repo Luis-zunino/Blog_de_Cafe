@@ -7,7 +7,40 @@
         column-gap: 4rem;
     }
 
-    .blog {}
+    .blog {
+        .entrada {
+            border-bottom: 1px solid $claro;
+            margin-bottom: 2rem;
 
-    .sidebar {}
+            &:last-of-type {
+                border: none;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.sidebar {
+    .cursos {
+        list-style: none;
+
+        .curso {
+            border-bottom: 1px solid $claro;
+            margin-bottom: 2rem;
+
+            &:last-of-type {
+                border: none;
+                margin: 0;
+            }
+
+            .cursoLabel {
+                font-family: $fuenteH;
+                font-weight: 700;
+            }
+
+            .cursoInfo {
+                font-weight: normal;
+            }
+        }
+    }
 }
